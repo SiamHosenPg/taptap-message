@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+body {
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+input {
+  outline: none;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
