@@ -6,11 +6,14 @@ function App() {
   return (
     <>
       <Topnavigation />
-      <div className="flex">
-        <Leftnavigation />
+      <div className="flex ">
+        <div className=" w-[300px]">
+          <Leftnavigation />
+        </div>
+        <div className=" w-[calc(100%_-_300px)] h-[calc(100vh_-_70px)] ">
+          <Message />
+        </div>
       </div>
-
-      <Message />
     </>
   );
 }

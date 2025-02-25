@@ -9,7 +9,7 @@ const Topnavigation = () => {
   return (
     <div>
       <div className="border-b border-b-[#ddd] h-[70px]  flex items-center justify-between w-full  ">
-        <div className=" w-[300px] border-r border-r-[#ddd] h-full flex items-center">
+        <div className=" w-[300px] border-r border-r-[#ddd] h-full flex items-center pl-12">
           <h3 className=" uppercase ">
             Taptap.<span className="text-sm text-[#888]">go</span>
           </h3>
@@ -28,7 +28,7 @@ const Topnavigation = () => {
 
         {/* search box closs  */}
 
-        <div className="  w-[400px]  h-full flex items-center justify-end gap-2 text-xl">
+        <div className="  w-[400px]  h-full flex items-center justify-end gap-2 text-xl pr-12">
           <div>
             <TbMessageCircle />
             <div className="w-[10px] h-[10px] bg-emerald-400 rounded-full  border-white border-[2px] absolute mt-[-20px] ml-[14px]"></div>

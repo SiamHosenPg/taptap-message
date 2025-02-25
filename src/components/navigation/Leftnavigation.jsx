@@ -6,8 +6,8 @@ import { MdGroupAdd } from "react-icons/md";
 
 const Leftnavigation = () => {
   return (
-    <div className="border-r w-[300px]  h-[calc(100vh_-_70px)] border-[#ddd] px-5">
-      <div className=" mt-12">
+    <div className="border-r w-full  h-[calc(100vh_-_70px)] border-[#ddd] px-5">
+      <div className=" pt-12">
         <div className=" font-semibold flex items-center gap-2 bg-white px-4 py-3 rounded-md mt-2 hover:bg-blue-50">
           <div></div>
           <GoHomeFill className="text-lg mt-[-2px]" />
